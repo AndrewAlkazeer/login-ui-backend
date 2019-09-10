@@ -1,0 +1,88 @@
+.login-cont{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    height: 380px;
+}
+
+
+.row{
+    width: 100%;
+    margin: 0;
+}
+
+.login-avatar{
+    position: relative;
+    margin: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.welcome{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.label-1, .label-2{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid lightgrey;
+}
+
+input:focus + .label-1{
+    background: red;
+/*border-bottom: 2px solid #ffa07a;*/
+}
+
+.span-1, .span-2{
+    margin-right: 10px;
+    font-size: 16px;
+    position: relative;
+    top: 30%;
+    transform: translateY(-30%);
+    color: grey;
+}
+
+.input-1, .input-2{
+    position: relative;
+    width: 80%;
+    height: 40px;
+    top: 100%;
+    transform: translateY(-100%);
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
+
+.input-1:focus, .input-2:focus{
+    outline: none;
+}
+
+.forgot{
+    position: relative;
+    left: 100%;
+    transform: translateX(-100%);
+    margin: 0;
+    color: grey;
+    margin-bottom: 10px;
+    /*font-weight: bold;*/
+}
+
+.forgot:hover{
+    text-decoration: none;
+}
+
+.login{
+    width: 100%;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    background: #ffa07a;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}

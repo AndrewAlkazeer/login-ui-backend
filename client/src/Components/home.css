@@ -1,0 +1,91 @@
+.home-body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    /*background-image: linear-gradient(to bottom, lightsalmon, white 20%);*/
+}
+
+.navv{
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    background: lightsalmon;
+    top: 0%;
+    z-index: 2;
+}
+
+
+.avatarr{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.home-p{
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+.home-cont{
+   margin-top: 12vh;
+}
+
+.home-row{
+    margin: 0;
+    height: 40px;
+}
+
+.home-input-div{
+    background: lightblue;
+    height: 100%;
+    margin-top: 100px;
+}
+
+.home-input{
+    height: 100%;
+    margin: 0;
+    font-weight: bold;
+}
+
+.home-input:focus{
+    outline: 2px solid lightsalmon;
+}
+
+.home-button-div{
+    width: 100%;
+    height: 100%; 
+}
+
+.home-contt{
+
+}
+
+.home-row-div{
+    width: 100%;
+    top: 20%;
+}
+
+.home-div{
+    position: absolute;
+    left: 5%;
+    width: 85%;
+    top: 55%;
+    transform: translateY(-55%);
+}
+
+.home-users-avatar{
+    width: 40px;
+    height: 40px;
+}
+
+.home-div-users{
+    position: absolute;
+    right: 5px;
+    top: 60%;
+    transform: translateY(-60%);
+}
